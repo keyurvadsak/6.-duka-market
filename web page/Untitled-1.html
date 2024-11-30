@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Overlay</title>
+    <style>
+
+        .image {
+            width: 250px;
+            height: 250px;
+        }
+
+        .container {
+            position: relative;
+            width: 250px;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            transition: all 0.3s ease;
+            opacity: 0;
+            background-color: #eee;
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlayBottom{
+            width: 50%;
+            height: 0;
+            bottom: 0;
+            top: 40PX;
+            left: 0px;
+            background-color: #00b1ba54;
+        }
+
+        .container:hover .overlayBottom{
+        height: 50%;
+        top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+        <div class="container">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+                class="image">
+            <div class="overlay overlayBottom"></div>
+        </div>
+
+</body>
+
+</html>

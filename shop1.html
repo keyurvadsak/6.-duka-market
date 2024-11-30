@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <link href="css/aos.css" rel="stylesheet">
+    <script src="js/aos.js"></script> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap'); </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+
+  
+
+</head>
+<body>
+    
+    <script>
+        AOS.init({duration:2500,});
+    </script>
+
+    <div class="frist">
+
+        <div class="frist-1">
+            <span>Express delivery and free returns within 30 days</span>
+        </div>
+
+        <div class="frist-1">
+            <ul>
+                <li style="border-left:none;"><a href="">My account</a></li>
+                <li><a href="">Whish List</a></li>
+                <li><a href="">Checkout</a></li>
+                <li><a href="">Shopping Cart</a></li>
+                <li><a href="">USD <i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="">GBP</a></li>
+                        <li><a href="">USD</a></li>
+                        <li><a href="">EUR</a></li>
+                        <li><a href="">DKK</a></li>
+                        <li><a href="">ARS</a></li>
+                        <li><a href="">CNY</a></li>
+                        <li><a href="">BRL</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+      
+    </div>
+
+
+    <!-- ------------------------------------------------- -->
+
+    <div class="rhy">
+
+        <div class="rhy10">
+            <img src="./img/logo1.png" alt="" height="auto">
+        </div>
+
+        <div class="rhy10">
+            <div class="rhyinput">
+                <select name="cars" class="cars">
+                    <option value="volvo">All Categories</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+            </div>
+
+            <div class="rhyinput">
+                <input type="text" class="carstexdiv" placeholder="Search for products ...">
+            </div>
+            <div class="rhyinput">
+                <button class="carbtn" value="search">Search</button>
+            </div>
+        </div>
+
+        <div class="rhy10">
+            <div class="caricon">
+                <div class="caricona">
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                </div>
+                <div class="carlogo">                    
+                    <h4>Hello ! sign in</h4>
+                    <p>Login/Register</p>
+                </div>
+
+                <div class="caricona">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+                <div class="carlogo">                    
+                    <h4>Favorite</h4>
+                    <p>My Whishlist</p>
+                </div>
+
+                <div class="caricona">
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>                    
+                </div>
+                <div class="carlogo">                    
+                    <h4>Your Cart</h4>
+                    <p>$0.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+   
+
+    <!-- ----------------------------------------------- -->
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+    </script>
+
+        <!-- <script>
+            $(document).ready(function() {
+            $(".dropdown_leptop").hide();
+
+            $('.icon2').click(function(e) {
+            $(".dropdown_leptop").slideToggle("fast");
+            var val = $(this).text() == "-" ? "+" : "-";
+            $(this).hide().text(val).fadeIn("fast");
+            e.preventDefault();
+            });
+            });
+        </script> -->
+
+
+    <div class="boder_thrid">
+
+    <div class="thriddiv">
+
+        <div class="shop_by-dep">
+            <div class="jqury1" id="icon">
+                <!-- <a href="" class="icon2">+</a> -->
+                <i onclick="myFunction(this)" class="fa-solid fa-bars"></i>
+                <!-- <i onclick="myFunction(this)" class="fa-solid fa-xmark"></i> -->
+
+            </div>
+            <div class="jqury1">
+                <h3>Shop by department</h3>
+            </div>
+        </div>
+
+
+        <div class="header">
+            <ul>
+                <li class="homesize"><a href="">HOME<span><i class="fa fa-angle-down"></i></span></a>
+                    <ul class="dropdown">
+
+                        <div class="drop-1">
+                            <li><a href="#">Home15</a></li>
+                            <li><a href="#">Home15</a></li>
+                            <li><a href="#">Home16</a></li>
+                            <li><a href="#">Home17</a></li>
+                        </div>
+                       
+                        <div class="drop-1">
+                            <li><a href="#">Home18</a></li>
+                            <li><a href="#">Home19</a></li>
+                            <li><a href="#">Home20</a></li>
+                            <li><a href="#">Home21</a></li>
+                        </div>
+                    </ul>
+                </li>
+                
+
+                <li class="shopsize"><a href="">SHOP<span><i class="fa fa-angle-down downa"></i></span></a>
+
+                        <ul class="dropdown">
+                            <li style="color: black;"><h4>Product Layout</h4></li>
+                            <li><a href="#">Sidebar Left</a></li>
+                            <li><a href="#">Sidebar Right</a></li>
+                            <li><a href="#">Top Sidebar</a></li>
+                            <li><a href="#">Show 5 Column</a></li>
+                            <li><a href="#">Shop Full Width</a></li>
+                            <li><a href="#">Product Zoom In</a></li>
+                            <li><a href="#">Product Lens Zoom</a></li>
+                            <li><a href="#">Categories</a></li>
+                        
+                            <li style="color: black;" ><h4>Product Layout</h4></li>
+                            <li><a href="#">Thumb Left</a></li>
+                            <li><a href="#">Thumb Right</a></li>
+                            <li><a href="#">Thumb Bottom</a></li>
+                            <li><a href="#">No Thumb</a></li>
+                            <li><a href="#">Product 360</a></li>
+                            <li><a href="#">Collection-2.0</a></li>
+                            <li><a href="#">Free Shipping</a></li>
+                            <li><a href="#">Variable Product</a></li>
+                        
+                            <li style="color: black;" ><h4>Other Shop Page</h4></li>
+                            <li><a href="#">Categories</a></li>
+                            <li><a href="#">Collection</a></li>
+                            <li><a href="#">LookBook</a></li>
+                            <li><a href="#">Shopping Cart</a></li>
+                            <li><a href="#"> Wishlist</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                            <li><a href="#">Load More Button</a></li>
+                            <li><a href="#">Infinit Scrolling</a></li>
+                        
+                            <li style="color: black;" ><h4>TV & Audios</h4></li>
+                            <li><a href="#">Camcorders</a></li>
+                            <li><a href="#">Cameras</a></li>
+                            <li><a href="#">Lingerie</a></li>
+                            <li><a href="#">Furniture</a></li>
+                            <li><a href="#">Conditioner</a></li>
+                        
+                            <li style="color: black;" ><h4>Payment & Shipping</h4></li>
+                            <li><a href="#">Terms Of User</a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                            <li><a href="#">Shipping Guide</a></li>
+                            <li><a href="#">Locations We Ship To</a></li>
+                            <li><a href="#">Estimated Delivery Time</a></li>
+                            <li><a href="#">Express</a></li>
+                        </ul>
+                </li>
+
+
+                <li class="pagesize"><a href="">PAGE<span><i class="fa fa-angle-down"></i></span></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Content Us</a></li>
+                            <li><a href="#">Abount Us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Site Boxed</a></li>
+                            <li><a href="#">404</a></li>
+                        </ul>
+                </li>
+            
+
+                <li class="blogsize"><a href="">BLOG<span><i class="fa fa-angle-down"></i></span></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Grid no sidebar</a></li>
+                        <li><a href="#">Grid left sidebar</a></li>
+                        <li><a href="#">Grid right sidebar</a></li>
+                        <li><a href="#">list no sidebar</a></li>
+                        <li><a href="#">list left sidebar</a></li>
+                        <li><a href="#">list right sidebar</a></li>
+                    </ul>
+                </li>
+
+
+                <li><a href="">ABOUT US</a></li>
+
+                <li><a href="">CONTECT US</a></li>
+
+            </ul>
+        </div>
+
+        <div class="hotline">
+            <a href=""><i class="fa-regular fa-bell"></i>
+            <span>Hotline: (+100) 123 456 7890  -  (+100) 987 654 3210</span>
+            </a>
+        </div>
+
+
+    </div>
+
+</div>
+
+<!-- --------------------------------------------------------------- -->
+
+    <div class="shop_page_banner">
+
+        <div class="shop_page_banner_main_div">
+
+            <div class="frist_div_main_shpoe_part">
+            </div>
+
+
+            <div class="second_div_main_shpoe_part">
+                <div>
+                    <img src="./img/shope_banner.png" alt="" width="100%" height="240px">
+                </div>
+
+                <div class="frive_shope_part">
+                    
+                </div>
+
+
+            
+            </div>
+
+
+
+        </div>
+    </div>

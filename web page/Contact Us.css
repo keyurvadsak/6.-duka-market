@@ -1,0 +1,524 @@
+/*  */
+/*  */
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  .content {
+    width: 77%;
+    margin: 50px auto;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #6c767a;
+    line-height: 1.9;
+  }
+  @media (min-width: 500px) {
+    .content {
+      width: 43%;
+    }
+    #button {
+      margin: 30px;
+    }
+  }
+  .content h1 {
+    margin-bottom: -10px;
+    color: #03a9f4;
+    line-height: 1.5;
+  }
+  .content h3 {
+    font-style: italic;
+    color: #96a2a7;
+  }
+  /*  */
+  /*  */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ a ul
+{
+    text-decoration: none;
+}
+.header ul li
+{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px; 
+}
+.header a
+{
+    text-decoration: none;
+    color: black;
+}
+ul li a
+{
+    text-decoration: none;
+    font-size: 10px;
+    color: #f3f1f1;
+}
+.box1
+{
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+}
+.box1 ul li
+{
+    display: inline-block;
+}
+.box1 ul li a
+{
+    font-size: 17px;
+}
+.box2
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.img
+{
+    margin-left: 20px;
+}
+.header
+{
+    width: 50%;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.ime
+{
+    width: 60%;
+    
+}
+.li
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.count
+{
+    width: 35%;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #FDCB09;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.fa-brands
+{
+    left: 20px;
+}
+.m1
+{
+    width: 22%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.b1
+{
+    display: flex;
+    width: 65%;
+}
+.d1
+{
+    width: 70%;
+}
+.d2
+{
+    width: 25%;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    color: #FBD34D;
+
+}
+.input
+{  
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    outline: none;
+    border: 2px solid #FBD34D;
+}
+.m2
+{
+    width: 100%;
+}
+.mini
+{
+    width: 100%;
+    height: 340px;
+}
+
+
+.bn a
+{
+    text-decoration: none;
+    
+}
+
+
+.h1
+{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flex
+{
+    display: flex;
+}
+.top
+{
+    margin-top: 19px;
+    width: 60%;
+    margin-left: 10px;
+}
+.section
+{
+    width: 90%;
+    margin: auto;
+}
+
+/* 1 */
+
+.product
+{
+    width: 100%;
+}
+
+.d5
+{
+    padding: 15px;
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 19px;
+}
+.map
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+.im
+{   
+    width: 100%;
+    display: flex;
+}
+.g
+{
+    width: 25%;
+    padding: 10px;
+}
+.g1
+{
+    width: 25%;
+    padding: 20px;
+    margin-left: 10px;
+}
+.phone12
+{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 15px;
+    color: red;
+}
+.phone1
+{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.dotted
+{
+    margin-top: 40px;
+}
+
+.divi
+{
+    height: 5px;
+    border-top: 1px dotted #a1a1a1;
+    border-bottom: 1px dotted #a1a1a1;
+}
+
+.kl
+{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    border-bottom: 2px solid  red;
+   
+}
+.hf
+{
+    padding: 10px;
+    background-color: red;
+    margin-right: 5px;
+    border-bottom: 2px solid  red;
+}
+.hf1
+{
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #F1F3F4;
+}
+.hf1:hover
+{
+    background-color: red;
+}
+.hf2
+{
+    padding: 10px;
+    background-color: #F1F3F4;
+}
+.hf2:hover
+{
+    background-color: red;
+}
+/*  */
+
+.main
+{
+    width: 40%;
+}
+.flx
+{
+    display: flex;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.left
+{
+    width: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.right
+{
+    font-weight: bold;
+    width: 50%;
+}
+.txt
+{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn
+{
+
+    background-color:#286090;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+.red
+{
+    color: red;
+}
+.t
+{
+    font-weight: bold;
+    font-size: 19px;
+}
+/*  */
+
+
+ul
+{
+    list-style: none;
+}
+.ff li
+{
+    position: relative;
+    font-weight: 300;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* 1 */
+/* kk */
+
+
+
+
+.m9
+{
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+
+
+
+
+.mb1
+{
+    width: 100%;
+    display: flex;
+}
+
+
+.w
+{
+    width: 35%;
+}
+.w ul li
+{
+    padding: 7px;
+    margin-top: 5px;
+    list-style: none;
+    display: inline-block;
+}
+
+
+.w ul li a:hover
+{
+    color: #FBD34D;
+    border:1px solid #FBD34D;
+}
+
+.w ul li a
+{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid lightslategrey;
+    border-radius: 20px;
+}
+
+.ab ul li
+{
+    padding: 7px;
+    margin-top: 5px;
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+.ab ul li a
+{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid lightslategrey;
+    border-radius: 20px;
+}
+
+.ab ul li a:hover
+{
+    color: #FBD34D;
+    border:1px solid #FBD34D;
+}
+
+.q1
+{
+    color: #FBD34D;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid lightsteelblue;
+}
+
+
+.r1
+{
+    border-bottom: 2px solid #FBD34D;
+}
+
+
+
+.ab
+{
+    width: 35%;
+    margin-left: 15px;
+}
+
+
+ 
+
+.phone
+{
+    color: #FBD34D;
+    margin-top: 15px;
+}
+
+
+.ba
+{
+    width: 30%;
+    margin-left: 15px;
+}
+.k
+{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    background-color: red;
+}
+.ava
+{
+    width: 80%;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 60px;
+    
+}
+.pat
+{
+    width: 20%;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+  
